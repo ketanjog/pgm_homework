@@ -12,9 +12,12 @@ SCRIPTS_PATH = os.path.join(ROOT_PATH, "scripts")
 ETC_PATH = os.path.join(ROOT_PATH, "etc")
 
 
-# MNIST DATA PATH
+# IMDB DATA PATH
 IMDB_PATH = os.path.join(DATA_PATH, "imdb_reviews.csv")
 IMDB_VOCAB_PATH = os.path.join(DATA_PATH, "aclImdb", "imdb.vocab")
+
+# CIFAR DATA PATH
+CIFAR10_PATH = os.path.join(DATA_PATH, "cifar")
 
 # SVD IMDB DATA
 SVD_IMDB_PATH = os.path.join(ETC_PATH, "svd_imdb_100/imdb_svd_data.pkl")

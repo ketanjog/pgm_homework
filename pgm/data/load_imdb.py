@@ -2,7 +2,6 @@ from lib2to3.pgen2.token import NEWLINE
 from multiprocessing.resource_sharer import stop
 from turtle import st
 from webbrowser import get
-import torch
 import numpy as np
 from pgm.constants.paths import IMDB_PATH, SCRIPTS_PATH
 from pathlib import Path
